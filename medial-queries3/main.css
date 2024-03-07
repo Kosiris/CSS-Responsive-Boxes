@@ -1,21 +1,21 @@
 body {
-  background: papayawhip;
+  background: peachpuff;
   margin: 0;
 }
 
 
+
 .container {
   display: flex;
-  flex-direction: column;
-  text-align: center;
-  font-weight: bold;
-  font-size: 20px;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .a {
   margin: 5px;
   width: 100%;
   height: 160px;
+ 
   box-shadow: 3px 3px 3px gray;
 }
 
@@ -23,6 +23,7 @@ body {
   margin: 5px;
   width: 30%;
   height: 160px;
+  
   box-shadow: 3px 3px 3px gray;
 }
 
@@ -30,8 +31,11 @@ body {
   margin: 5px;
   width: 100%;
   height: 360px;
+  
   box-shadow: 3px 3px 3px gray;
 }
+
+
 
 @media (min-width: 600px) {
   .container {
